@@ -1,9 +1,15 @@
-//import Head from 'next/head'
-//import Image from 'next/image'
-//import styles from '../styles/Home.module.css'
+import Header from './header'
+import Footer from './footer'
 
 export default function Home() {
   return (
-    <h1>Hello World!</h1>  
+    <>
+
+      <Header /> 
+      <hr />
+      <p>Página inicial</p>
+      <Footer />      
+     
+    </>
   )
 }
